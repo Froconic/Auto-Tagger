@@ -1,255 +1,327 @@
-# 48
-#i
-# 37
-#and
-# 29
-#to
-# 26
-#the
-# 25
-#a
-# 18
-#of
-# 13
-#in
-# 13
+# 22
 #
-# 12
-#that
-# 12
+# 16
 #me
-# 12
-#am
+# 11
+#going
 # 10
-#there
+#cat
 # 9
-#was
+#house
 # 8
-#trying
+#dream
 # 8
-#then
-# 8
-#so
-# 7
-#they
-# 7
-#on
-# 7
-#it
-# 7
-#have
-# 6
-#kind
-# 6
-#is
-# 6
-#but
-# 5
-#she
-# 5
-#people
-# 5
-#like
-# 5
-#im
-# 5
-#hes
-# 5
-#by
-# 5
-#at
-# 4
-#with
-# 4
-#where
-# 4
-#very
-# 4
-#up
-# 4
-#or
-# 4
-#my
-# 4
-#gives
-# 4
-#be
-# 4
-#an
-# 3
-#who
-# 3
-#through
-# 3
-#this
-# 3
-#them
-# 3
-#swimming
-# 3
-#stream
-# 3
-#space
-# 3
-#something
-# 3
-#previous
-# 3
-#powers
-# 3
-#place
-# 3
-#one
-# 3
-#older
-# 3
-#has
-# 3
-#good
-# 3
-#for
-# 3
-#eyes
-# 3
-#blood
-# 3
 #being
-# 3
-#are
-# 3
-#all
-# 3
+# 7
+#recall
+# 7
+#around
+# 7
+#another
+# 6
+#yoshi
+# 6
+#well
+# 6
+#take
+# 6
+#somebody
+# 6
+#order
+# 6
+#know
+# 6
+#goes
+# 6
+#dark
+# 6
+#back
+# 5
+#trying
+# 5
+#sort
+# 5
+#room
+# 5
+#previous
+# 5
+#point
+# 5
+#outside
+# 5
+#mary
+# 5
+#door
+# 5
+#before
+# 5
+#area
+# 5
 #after
+# 4
+#stream
+# 4
+#side
+# 4
+#shower
+# 4
+#screen
+# 4
+#left
+# 4
+#guess
+# 4
+#game
+# 4
+#fire
+# 4
+#dreamhouse
+# 4
+#bit
 # 3
-#addendum
+#yoshis
 # 3
-#abilities
+#upstairs
+# 3
+#tshirt
+# 3
+#thought
+# 3
+#think
+# 3
+#supposed
+# 3
+#steeper
+# 3
+#speed
+# 3
+#remember
+# 3
+#power
+# 3
+#others
+# 3
+#onto
+# 3
+#object
+# 3
+#near
+# 3
+#marketing
+# 3
+#loop
+# 3
+#little
+# 3
+#late
+# 3
+#inside
+# 3
+#highway
+# 3
+#happening
+# 3
+#drive
+# 3
+#competition
+# 3
+#check
+# 3
+#cant
+# 3
+#bring
+# 3
+#big
+# 3
+#between
+# 3
+#bathroom
+# 3
+#ask
+# 3
+#animals
 # 2
-#woman
+#white
 # 2
-#were
+#weed
 # 2
-#walking
+#ways
 # 2
-#vessel
+#want
 # 2
-#time
+#wake
 # 2
-#theyre
+#utilize
 # 2
-#stay
+#used
+# 2
+#uphill
+# 2
+#train
+# 2
+#toilet
+# 2
+#through
+# 2
+#tell
+# 2
+#talked
+# 2
+#tag
+# 2
+#stuck
+# 2
+#step
+# 2
+#started
+# 2
+#specifically
 # 2
 #specific
 # 2
-#some
+#spaceship
 # 2
-#seems
+#sneaking
 # 2
-#saw
+#smoke
 # 2
-#same
+#separate
 # 2
-#robot
+#seeing
 # 2
-#relevant
+#school
 # 2
-#reason
+#place
 # 2
-#pool
+#photoshoot
 # 2
-#phone
+#own
 # 2
-#order
+#over
 # 2
-#off
+#open
 # 2
-#not
+#need
 # 2
-#next
+#multilevel
 # 2
-#loop
+#mall
 # 2
-#laughed
+#looks
 # 2
-#keys
+#looking
 # 2
-#keyboards
+#leave
 # 2
-#its
+#launched
 # 2
-#house
+#jump
 # 2
-#him
+#heavy
 # 2
-#he
+#guise
 # 2
-#hall
+#gone
 # 2
-#had
+#free
 # 2
-#getting
+#form
 # 2
-#from
+#feline
 # 2
-#energy
+#feel
 # 2
-#dont
+#fashion
 # 2
-#come
+#eating
 # 2
-#boxing
+#dude
 # 2
-#big
+#driving
 # 2
-#been
+#doing
 # 2
-#avoid
+#different
 # 2
-#as
+#date
 # 2
-#approached
+#comes
 # 2
-#another
+#closed
+# 2
+#climb
+# 2
+#care
+# 2
+#cakes
+# 2
+#bubba
+# 2
+#bill
+# 2
+#bigger
+# 2
+#begins
+# 2
+#battle
+# 2
+#basement
+# 2
+#attained
+# 2
+#apartment
+# 2
+#almost
+# 2
+#allow
+# 2
+#ability
+# 2
+#abilities
+# 2
+#8
+# 2
+#2
 # 1
-#worship
+#yet
 # 1
-#woke
+#yes
 # 1
-#witness
+#yelling
 # 1
-#whos
+#wrong
 # 1
-#white
+#worried
 # 1
-#while
+#world
 # 1
-#which
+#wondering
 # 1
-#when
+#woman
 # 1
-#whatever
+#woken
 # 1
-#way
+#whites
 # 1
-#wants
+#went
 # 1
-#want
+#weird
 # 1
-#utilizing
+#waters
 # 1
-#utilize
+#watching
 # 1
-#using
+#watch
 # 1
-#uses
+#wash
 # 1
-#used
+#under
 # 1
-#use
+#typical
 # 1
-#updated
+#type
 # 1
-#unknown
+#tv
 # 1
 #turned
 # 1
@@ -257,389 +329,665 @@
 # 1
 #try
 # 1
-#trials
+#tries
 # 1
-#transforms
+#tried
+# 1
+#transportation
+# 1
+#transformation
+# 1
+#transform
 # 1
 #training
 # 1
-#train
+#towards
 # 1
-#trail
+#took
 # 1
-#throw
+#tone
 # 1
-#those
+#tomorrow
 # 1
-#thing
+#today
 # 1
-#thats
+#timely
 # 1
-#telling
+#thoughts
 # 1
-#tell
+#talking
 # 1
-#team
+#talkin
 # 1
-#takes
+#taking
 # 1
-#take
+#taken
+# 1
+#symbolizing
+# 1
+#switch
 # 1
 #swim
 # 1
-#students
+#sweet
 # 1
-#stroke
+#supervised
 # 1
-#street
+#sunny
 # 1
-#still
+#sugars
 # 1
-#speaking
+#suddenly
 # 1
-#spark
+#suck
 # 1
-#sorts
+#subside
 # 1
-#sometimes
+#straightup
 # 1
-#somebody
+#store
 # 1
-#soda
+#steep
 # 1
-#skulls
+#station
 # 1
-#skull
+#stairway
+# 1
+#sprayed
+# 1
+#spiraling
+# 1
+#special
+# 1
+#space
+# 1
+#sought
+# 1
+#somewhere
+# 1
+#someone
+# 1
+#snowing
+# 1
+#snowed
+# 1
+#smooth
+# 1
+#smaller
+# 1
+#slips
+# 1
+#slippy
+# 1
+#situations
+# 1
+#situation
 # 1
 #similar
 # 1
+#sides
+# 1
+#shows
+# 1
 #show
 # 1
-#seemed
+#shoulder
 # 1
-#secluded
+#should
+# 1
+#shortcut
+# 1
+#shopping
+# 1
+#shes
+# 1
+#shapeshifter
+# 1
+#sell
+# 1
+#seen
+# 1
+#searching
+# 1
+#search
+# 1
+#scren
+# 1
+#schoolroom
+# 1
+#scared
+# 1
+#says
 # 1
 #say
 # 1
-#said
+#saw
 # 1
-#sacrifice
+#running
 # 1
-#room
+#run
 # 1
-#right
+#rolling
 # 1
-#reup
+#rode
 # 1
-#returning
+#rocket
 # 1
-#return
+#road
 # 1
-#results
+#riff
 # 1
-#replaced
+#ridiculously
 # 1
-#removing
+#rewind
 # 1
-#removed
+#result
 # 1
-#regularly
+#rest
 # 1
-#recording
+#respected
 # 1
-#rain
+#requires
 # 1
-#quickly
+#reign
 # 1
-#question
+#refuge
 # 1
-#put
+#red
 # 1
-#purpose
+#receive
 # 1
-#psychic
+#reason
 # 1
-#protect
+#ready
 # 1
-#prevent
+#putting
 # 1
-#point
+#push
+# 1
+#punch
+# 1
+#pull
+# 1
+#previously
+# 1
+#president
+# 1
+#present
+# 1
+#powers
+# 1
+#position
+# 1
+#please
+# 1
+#playing
 # 1
 #play
 # 1
-#pinky
+#pit
 # 1
-#pillow
-# 1
-#physically
+#pierre
 # 1
 #person
 # 1
-#owner
+#peeing
 # 1
-#over
+#pay
 # 1
-#out
+#pass
 # 1
-#offended
+#party
+# 1
+#park
+# 1
+#pangs
+# 1
+#pan
+# 1
+#outdoor
+# 1
+#ours
+# 1
+#our
+# 1
+#ordered
+# 1
+#orangeish
+# 1
+#only
+# 1
+#oh
+# 1
+#off
+# 1
+#nola
+# 1
+#nighttime
 # 1
 #night
 # 1
-#nice
+#next
 # 1
-#need
+#nervous
 # 1
-#near
+#needed
+# 1
+#necessarily
 # 1
 #myself
 # 1
-#mylaps
+#movement
 # 1
-#moved
+#move
 # 1
-#more
+#model
 # 1
-#monsters
+#mixture
 # 1
-#mentioned
+#minimal
 # 1
-#means
+#miles
 # 1
-#mean
+#middle
 # 1
-#match
+#mentor
 # 1
-#male
+#meet
 # 1
-#making
+#maxine
 # 1
-#lurking
+#marys
 # 1
-#luck
+#markells
 # 1
-#love
+#map
 # 1
-#looping
+#lot
 # 1
-#looks
+#lost
 # 1
-#look
+#location
 # 1
-#length
+#literally
 # 1
-#leave
+#life
 # 1
-#laugh
+#lends
 # 1
-#late
+#leadership
 # 1
-#lady
+#leader
 # 1
-#know
+#lead
 # 1
-#keyboard
+#layers
 # 1
-#kangaroo
+#launch
 # 1
-#just
+#large
 # 1
-#irrelevant
+#king
 # 1
-#iowa
+#keep
 # 1
-#invoke
+#julian
 # 1
-#into
+#josh
 # 1
-#instead
+#joel
 # 1
-#inside
+#jealousy
 # 1
-#imagery
+#involved
 # 1
-#hugs
+#interact
 # 1
-#hug
+#industrial
 # 1
-#how
+#important
+# 1
+#immediately
+# 1
+#hulse
+# 1
+#huge
+# 1
+#horus
 # 1
 #home
 # 1
-#hearty
+#holes
 # 1
-#having
+#hole
+# 1
+#holder
+# 1
+#hit
+# 1
+#hispanic
+# 1
+#hill
+# 1
+#high
+# 1
+#here
+# 1
+#helping
+# 1
+#help
+# 1
+#heard
+# 1
+#healthy
+# 1
+#head
+# 1
+#hating
 # 1
 #happened
 # 1
-#happen
+#hallway
 # 1
-#handler
+#guy
 # 1
-#handing
+#group
 # 1
-#gymnasium
+#gross
 # 1
-#grassy
+#greenish
 # 1
-#got
+#green
 # 1
-#go
+#grandma
 # 1
-#get
+#gokarts
 # 1
-#genius
+#gatekeeper
 # 1
-#gear
+#fully
 # 1
-#gathering
+#friends
 # 1
-#full
+#freeform
 # 1
-#freshly
+#framed
 # 1
-#first
+#found
+# 1
+#forested
+# 1
+#foreign
+# 1
+#finger
+# 1
+#finally
+# 1
+#figure
+# 1
+#fighting
 # 1
 #field
 # 1
-#fees
+#few
 # 1
-#fatherly
+#feet
 # 1
-#everyone
+#far
 # 1
-#escape
+#fancy
+# 1
+#eyes
+# 1
+#eyeball
+# 1
+#eye
+# 1
+#express
+# 1
+#exit
+# 1
+#excitedly
+# 1
+#excited
+# 1
+#exactly
+# 1
+#even
+# 1
+#equipment
 # 1
 #enough
 # 1
-#electricity
+#energy
 # 1
-#early
+#ending
 # 1
-#drinking
+#ended
 # 1
-#dreamhouse
+#end
 # 1
-#down
+#elliott
 # 1
-#doing
+#elevate
 # 1
-#do
+#elements
 # 1
-#divvy
+#electronics
 # 1
-#different
+#electro
 # 1
-#did
+#electrical
 # 1
-#device
+#effort
 # 1
-#depending
+#effect
 # 1
-#defeat
+#drop
 # 1
-#deep
+#doorman
+# 1
+#dog
+# 1
+#disperse
+# 1
+#dislike
+# 1
+#disguise
+# 1
+#directing
+# 1
+#dinner
+# 1
+#developments
+# 1
+#deuce
 # 1
 #decided
 # 1
-#d4
+#decide
 # 1
-#d
+#deal
 # 1
-#creatures
+#dead
 # 1
-#created
+#daytime
 # 1
-#could
+#cruz
 # 1
-#control
+#crowd
 # 1
-#computer
+#cross
 # 1
-#completely
+#crevices
 # 1
-#communicating
+#crashing
 # 1
-#coming
+#course
 # 1
-#closed
+#couple
 # 1
-#certain
+#cosmos
 # 1
-#cast
+#corner
 # 1
-#carrying
+#cooperating
 # 1
-#careful
+#contest
 # 1
-#care
+#consumption
 # 1
-#cant
+#consumed
 # 1
-#can
+#connects
 # 1
-#call
+#colors
+# 1
+#clocks
+# 1
+#clawed
+# 1
+#claw
+# 1
+#chose
+# 1
+#chism
+# 1
+#chicken
+# 1
+#chase
+# 1
+#changes
+# 1
+#cats
+# 1
+#captain
+# 1
+#capacities
+# 1
+#cake
+# 1
+#byam
 # 1
 #building
 # 1
-#breath
+#bright
+# 1
+#bottom
 # 1
 #block
 # 1
+#blaze
+# 1
+#bedroom
+# 1
+#becoming
+# 1
 #become
 # 1
-#backroom
+#beat
 # 1
-#back
+#bears
 # 1
-#aware
+#basis
 # 1
-#asked
+#backpack
 # 1
-#ask
+#babies
 # 1
-#around
+#ayo
 # 1
-#arm
+#awoke
 # 1
-#area
+#away
 # 1
-#archons
+#awakenings
 # 1
-#ambushed
+#awakening
 # 1
-#also
+#awaken
 # 1
-#allow
+#austin
 # 1
-#add
+#aspect
 # 1
-#activate
+#asking
 # 1
-#acid
+#army
 # 1
-#about
+#argument
+# 1
+#areas
+# 1
+#apart
+# 1
+#anyting
+# 1
+#anybody
+# 1
+#animal
+# 1
+#anger
+# 1
+#allows
+# 1
+#allowed
+# 1
+#air
+# 1
+#ahead
+# 1
+#against
+# 1
+#again
+# 1
+#accidentally
+# 1
+#accelerating
+# 1
+#above
+# 1
+#a768re
 # 1
 #9
 # 1
-#8
+#830
 # 1
 #7
 # 1
-#6
-# 1
 #5
+# 1
+#40
 # 1
 #4
 # 1
 #3
 # 1
-#2
+#22
+# 1
+#21
+# 1
+#20
+# 1
+#19
+# 1
+#18
+# 1
+#17
+# 1
+#16
+# 1
+#15
+# 1
+#14
 # 1
 #13
 # 1
 #12
 # 1
 #11
+# 1
+#1015
 # 1
 #10
 # 1
