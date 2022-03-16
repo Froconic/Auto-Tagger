@@ -1,5 +1,5 @@
 import string
-# TODO add a function that will delete common words in a filter list
+# TODO Function that checks the file and if the word is in the sorted list replace it with a back link
 
 def stripPunctuation(word):
     for char in string.punctuation:
@@ -8,6 +8,7 @@ def stripPunctuation(word):
 
 input = "input/test.txt"
 output = "output/list.md"
+linked = "output/links.md"
 
 wordCount = {}
 
@@ -40,17 +41,36 @@ def filterWordCheck(dictionary):
 
   return filteredList
 
+def backlinker(list):
+  with open(linked, 'w') as p:
+    with open(input, 'r') as f:
+      newline = ""
+      for line in f:
+          for word in line.split():
+              word = stripPunctuation(word)
+              word = word.lower()
+              if word in sorted:
+                  word = '[[' + word + ']] '
+                  print('Backlinked word' + word)
+                  newline = newline + word
+                  print("line is: " + newline)
+              p.write(newline  + '\n')
+
+
 filtered = filterWordCheck(wordCount)
-print("Filtered Results: ",filtered)
+# print("Filtered Results: ",filtered)
 sorted = frequencySort(filtered)
-print("Sorted Results: ",sorted)
-print("Full list:")
-for frequency in sorted:
-    count, word = frequency
-    print(word, ": ", wordCount[word])
+backlink = backlinker(sorted)
+print("Backlinked Results: ",backlink)
+# print("Sorted Results: ",sorted)
+# print("Full list:")
+# for frequency in sorted:
+#     count, word = frequency
+#     print(word, ": ", wordCount[word])
     
 with open(output, 'w') as r:
     for frequency in sorted:
         count, word = frequency
         r.write('# ' + str(wordCount[word]) + '\n')
         r.write('#'+ word +  '\n')
+
