@@ -1,5 +1,5 @@
 import string
-# TODO Function that checks the file and if the word is in the sorted list replace it with a back link
+# TODO Function that checks for common words in a file and outputs a list of tags and backlinks that are added to the end of the file under titles
 
 def stripPunctuation(word):
     for char in string.punctuation:
@@ -11,6 +11,7 @@ output = "output/list.md"
 linked = "output/links.md"
 
 wordCount = {}
+text = ""
 
 with open(input, 'r') as f:
     for line in f:
@@ -41,36 +42,34 @@ def filterWordCheck(dictionary):
 
   return filteredList
 
-def backlinker(list):
-  with open(linked, 'w') as p:
-    with open(input, 'r') as f:
-      newline = ""
-      for line in f:
-          for word in line.split():
-              word = stripPunctuation(word)
-              word = word.lower()
-              if word in sorted:
-                  word = '[[' + word + ']] '
-                  print('Backlinked word' + word)
-                  newline = newline + word
-                  print("line is: " + newline)
-              p.write(newline  + '\n')
-
-
+print(text)
 filtered = filterWordCheck(wordCount)
-# print("Filtered Results: ",filtered)
 sorted = frequencySort(filtered)
-backlink = backlinker(sorted)
-print("Backlinked Results: ",backlink)
 # print("Sorted Results: ",sorted)
 # print("Full list:")
 # for frequency in sorted:
 #     count, word = frequency
 #     print(word, ": ", wordCount[word])
-    
+
 with open(output, 'w') as r:
     for frequency in sorted:
         count, word = frequency
         r.write('# ' + str(wordCount[word]) + '\n')
         r.write('#'+ word +  '\n')
+        r.write('[[' + word + ']]\n')
 
+# with open(linked, 'w') as p:
+#     with open(input, 'r') as f:
+#         for line in f:
+#             for word in line.split():
+#                 word = stripPunctuation(word)
+#                 word = word.lower()
+#                 if word in sorted:
+#                     word = '[[' + word + ']] '
+#                     print('Backlinked word' + word)
+#                     text = text + word
+#                     print(text)
+#                 else:
+#                     text = text + ' ' + word
+#                     print(text)
+#         p.write(text)
