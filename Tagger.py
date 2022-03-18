@@ -1,27 +1,31 @@
 import string
-# TODO Function that checks for common words in a file and outputs a list of tags and backlinks that are added to the end of the file under titles
+import os
+# TODO Function that renames files in a directory
+# TODO function that parses dates from the title and adds them at the top of the file
+# TODO Function to move files to a new directory
 
 def stripPunctuation(word):
     for char in string.punctuation:
         word = word.replace(char, "")
     return word
 
-input = "input/test.txt"
-output = "output/list.md"
-linked = "output/links.md"
+input = "input/"
+output = "output/"
+object = os.scandir(input)
 
 wordCount = {}
-text = ""
 
-with open(input, 'r') as f:
-    for line in f:
-        for word in line.split():
-            word = stripPunctuation(word)
-            word = word.lower()
-            if word not in wordCount:
-                wordCount[word] = 1
-            else:
-                wordCount[word] += 1
+# with open(input, 'r') as f:
+#     for line in f:
+#       for word in line.split():
+#             word = stripPunctuation(word)
+#             word = word.lower()
+#             text = text + word + " "
+#             if word not in wordCount:
+#                 wordCount[word] = 1
+#             else:
+#                 wordCount[word] += 1
+#     print("Full Text: " + text)
 
 # Create a data frame of the most common words
 def frequencySort(dictionary):
@@ -42,34 +46,64 @@ def filterWordCheck(dictionary):
 
   return filteredList
 
-print(text)
-filtered = filterWordCheck(wordCount)
-sorted = frequencySort(filtered)
+def AutoTag(object):
+  text = ""
+  for n in object:
+    if n.is_file():
+      print("File found: " + n.name)
+      with open(n.path, 'r') as i:
+        print("Sifting through file...")
+        for line in i:
+          for word in line.split():
+            word = stripPunctuation(word)
+            word = word.lower()
+            text = text + word + " "
+            if word not in wordCount:
+                wordCount[word] = 1
+            else:
+                wordCount[word] += 1
+                
+        print('Text sifted thru and word count found' + '\n')
+        print("Full Text: " + text + "\n")
+        print("Filtering for unecessary words..." + "\n")
+        filtered = filterWordCheck(wordCount)
+        print("Now sorting..." + "\n")
+        sorted = frequencySort(filtered)
+        print("Now adding list of words tags and backlinks..." + "\n")
+        print("Please Wait..." + "\n")
+        with open(n.path, 'w') as o:
+          o.write(text + "\n")
+          o.write("\n" + '# Most Common Words: ' + "\n")
+          for frequency in sorted:
+            count, word = frequency
+            o.write('# ' + str(wordCount[word]) + '\n')
+            o.write('#' + word + '\n')
+            o.write('[[' + word + ']]\n')
+          print("File written")
+
+# print(text)
+# filtered = filterWordCheck(wordCount)
+# sorted = frequencySort(filtered)
 # print("Sorted Results: ",sorted)
 # print("Full list:")
 # for frequency in sorted:
 #     count, word = frequency
 #     print(word, ": ", wordCount[word])
 
-with open(output, 'w') as r:
-    for frequency in sorted:
-        count, word = frequency
-        r.write('# ' + str(wordCount[word]) + '\n')
-        r.write('#'+ word +  '\n')
-        r.write('[[' + word + ']]\n')
+# with open(output, 'w') as r:
+#     for frequency in sorted:
+#         count, word = frequency
+#         r.write('# ' + str(wordCount[word]) + '\n')
+#         r.write('#'+ word +  '\n')
+#         r.write('[[' + word + ']]\n')
 
-# with open(linked, 'w') as p:
-#     with open(input, 'r') as f:
-#         for line in f:
-#             for word in line.split():
-#                 word = stripPunctuation(word)
-#                 word = word.lower()
-#                 if word in sorted:
-#                     word = '[[' + word + ']] '
-#                     print('Backlinked word' + word)
-#                     text = text + word
-#                     print(text)
-#                 else:
-#                     text = text + ' ' + word
-#                     print(text)
-#         p.write(text)
+# with open(input, 'w') as f:
+#   f.write(text + '\n')
+#   f.write('\n' + "# List of common words: " + '\n')
+#   for frequency in sorted:
+#     count, word = frequency
+#     f.write('# ' + str(wordCount[word]) + '\n')
+#     f.write('#' + word + '\n')
+#     f.write('[[' + word + ']]\n')
+
+AutoTag(object)
