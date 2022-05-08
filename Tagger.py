@@ -38,7 +38,7 @@ def frequencySort(dictionary):
 
 def filterWordCheck(dictionary):
   filteredList = {}
-  filterWords = ['the', 'and', 'of', 'a', 'to', 'in', 'is', 'it', 'you', 'that', 'he', 'was', 'for', 'on', 'are', 'with', 'as', 'i', 'his', 'they', 'be', 'at', 'one', 'have', 'this', 'from', 'or', 'had', 'by', 'but', 'not', 'what', 'all', 'were', 'we', 'when', 'your', 'can', 'there', 'use', 'an', 'each', 'which', 'she', 'do', 'how', 'their', 'if', 'will', 'up', 'other', 'about', 'out', 'many', 'then', 'them', 'these', 'so', 'some', 'her', 'would', 'make', 'like', 'him', 'into', 'time', 'has', 'look', 'two', 'more', 'go', 'see', 'number', 'no', 'way', 'could', 'people', 'my', 'than', 'first', 'water', 'been', 'call', 'who', 'oil', 'its', 'now', 'find', 'long', 'down', 'day', 'did', 'get', 'come', 'made', 'may', 'part', 'am', 'seems', 'something', 'kind', 'im', 'just', 'dont', 'theres', 'where', 'very', 'certain', 'addendum', 'too', 'thats', 'stuff', 'because', 'also', 'us', 'things', 'put', 'might', 'let', 'cuz', 'whos', 'werent', 'those', 'thing', 'theyre', 'themselves', 'sure', 's', 'most', 'maybe', 'gets', 'except', 'any', 'already', 'actually', 'yours', 'youre', 'wont', 'whatever', 'wasnt', 'was', 'unless','typically', 'totally', 'stays', 'seem', 'same', 'quite', 'mostly', 'likely', 'jumps', 'hes', 'having', 'gotten', 'getting', 'coming', 'both', 'blah', 'anything']
+  filterWords = ['the', 'and', 'of', 'a', 'to', 'in', 'is', 'it', 'you', 'that', 'he', 'was', 'for', 'on', 'are', 'with', 'as', 'i', 'his', 'they', 'be', 'at', 'one', 'have', 'this', 'from', 'or', 'had', 'by', 'but', 'not', 'what', 'all', 'were', 'we', 'when', 'your', 'can', 'there', 'use', 'an', 'each', 'which', 'she', 'do', 'how', 'their', 'if', 'will', 'up', 'other', 'about', 'out', 'many', 'then', 'them', 'these', 'so', 'some', 'her', 'would', 'make', 'like', 'him', 'into', 'time', 'has', 'look', 'two', 'more', 'go', 'see', 'number', 'no', 'way', 'could', 'people', 'my', 'than', 'first', 'water', 'been', 'call', 'who', 'oil', 'its', 'now', 'find', 'long', 'down', 'day', 'did', 'get', 'come', 'made', 'may', 'part', 'am', 'seems', 'something', 'kind', 'im', 'just', 'dont', 'theres', 'where', 'very', 'certain', 'addendum', 'too', 'thats', 'stuff', 'because', 'also', 'us', 'things', 'put', 'might', 'let', 'cuz', 'whos', 'werent', 'those', 'thing', 'theyre', 'themselves', 'sure', 's', 'most', 'maybe', 'gets', 'except', 'any', 'already', 'actually', 'yours', 'youre', 'wont', 'whatever', 'wasnt', 'was', 'unless','typically', 'totally', 'stays', 'seem', 'same', 'quite', 'mostly', 'likely', 'jumps', 'hes', 'having', 'gotten', 'getting', 'coming', 'both', 'blah', 'anything', 'really', 'me', '', 'after', 'while', 'turn', 'while', 'instead', 'during', 'yadi', 'without', '']
 
   for key in dictionary:
     if key not in filterWords:
@@ -76,7 +76,7 @@ def AutoTag(object):
           o.write("\n" + '# Most Common Words: ' + "\n")
           for frequency in sorted:
             count, word = frequency
-            o.write('# ' + str(wordCount[word]) + '\n')
+            o.write('### ' + str(wordCount[word]) + '\n')
             o.write('#' + word + '\n')
             o.write('[[' + word + ']]\n')
           print("File written")
